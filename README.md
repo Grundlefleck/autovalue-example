@@ -7,7 +7,7 @@ The goal of this project is to test and show how AutoValue would be used in a re
 
  1. Compiling and testing from the command line, with:
   1. Maven - Done
-  2. Gradle
+  2. Gradle - Done
  2. Editing and working on code in popular IDEs, including:
   1. Eclipse
   2. IntelliJ IDEA
