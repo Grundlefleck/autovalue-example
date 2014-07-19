@@ -17,3 +17,7 @@ hs_err_pid*
 .settings/
 .factorypath
 bin/
+
+# Gradle
+.gradle/
+gradle/
