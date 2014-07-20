@@ -1,0 +1,5 @@
+<factorypath>
+    <factorypathentry kind="VARJAR" id="M2_REPO/com/google/auto/value/auto-value/1.0-rc1/auto-value-1.0-rc1.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/com/google/guava/guava/16.0.1/guava-16.0.1.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/com/google/code/findbugs/jsr305/2.0.3/jsr305-2.0.3.jar" enabled="true" runInBatchMode="false"/>
+</factorypath>
