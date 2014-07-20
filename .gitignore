@@ -14,7 +14,7 @@ hs_err_pid*
 # Eclipse
 .classpath
 .project
-.settings/
+.settings/org.eclipse.jdt.core.prefs
 bin/
 
 # Gradle
