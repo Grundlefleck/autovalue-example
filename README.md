@@ -19,3 +19,33 @@ The goal of this project is to test and show how AutoValue would be used in a re
   1. JAR dependency
   2. multi-module build in various build tools (?)
  
+## Version Information
+The above tests were carried out with the following versions.
+
+
+<table>
+    <tr>
+        <td colspan=1>Tool
+        <td colspan=1>Version</td>
+    </tr>
+    <tr>
+        <td>Maven</td>
+        <td>3.0.5</td>
+    </tr>
+    <tr>
+        <td>Gradle</td>
+        <td>2.0</td>
+    </tr>
+    <tr>
+        <td>Eclipse</td>
+        <td>Luna Release (4.4.0)</td>
+    </tr>
+    <tr>
+        <td>IntelliJ</td>
+        <td>13.1.1</td>
+    </tr>
+    <tr>
+        <td>JDK</td>
+        <td>OpenJDK 1.7.0_60</td>
+    </tr>
+</table>
