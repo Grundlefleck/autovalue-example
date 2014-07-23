@@ -17,6 +17,10 @@ hs_err_pid*
 .settings/org.eclipse.jdt.core.prefs
 bin/
 
+# IntelliJ
+.idea/
+*.iml
+
 # Gradle
 .gradle/
 gradle/
