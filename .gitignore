@@ -23,6 +23,5 @@ bin/
 
 # Gradle
 .gradle/
-gradle/
 build/
 /.apt_generated/
