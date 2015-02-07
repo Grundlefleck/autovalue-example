@@ -1,9 +1,15 @@
 package com.github.grundlefleck;
 
 import static org.junit.Assert.assertEquals;
+import static org.mutabilitydetector.unittesting.AllowedReason.provided;
 import static org.mutabilitydetector.unittesting.MutabilityAssert.assertImmutable;
+import static org.mutabilitydetector.unittesting.MutabilityAssert.assertInstancesOf;
+import static org.mutabilitydetector.unittesting.MutabilityMatchers.areImmutable;
 
 import org.junit.Test;
+import org.mutabilitydetector.unittesting.AllowedReason;
+import org.mutabilitydetector.unittesting.MutabilityAssert;
+import org.mutabilitydetector.unittesting.MutabilityMatchers;
 
 public class CarTest {
 
@@ -18,6 +24,6 @@ public class CarTest {
 
 	@Test
 	public void isImmutable() {
-		assertImmutable(Car.create("Ferrari").getClass());
+        assertInstancesOf(Car.create("Ferrari").getClass(), areImmutable(), provided(Registration.class).isAlsoImmutable());
 	}
 }
